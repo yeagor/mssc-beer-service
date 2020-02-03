@@ -20,4 +20,9 @@ public class MvcExceptionHandler {
         return new ResponseEntity<>(errors, HttpStatus.BAD_REQUEST);
     }
 
+    @ExceptionHandler(NotFoundException.class)
+    public ResponseEntity notFoundHandler(NotFoundException ex) {
+        return new ResponseEntity("Wrong params specified", HttpStatus.BAD_REQUEST);
+    }
+
 }
