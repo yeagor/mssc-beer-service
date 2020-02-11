@@ -3,11 +3,11 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>guru.springframework</groupId>
-		<artifactId>mssc-brewery-bom</artifactId>
-		<version>1.0-SNAPSHOT</version>
+		<groupId>com.github.sfg-beer-works</groupId>
+		<artifactId>sfg-brewery-bom</artifactId>
+		<version>1.0.3</version>
 	</parent>
-	<groupId>guru.springframework</groupId>
+
 	<artifactId>mssc-beer-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
@@ -16,16 +16,6 @@
 	<description>For udemy course https://www.udemy.com/course/spring-boot-microservices-with-spring-cloud-beginner-to-guru</description>
 
 	<dependencies>
-		<dependency>
-			<groupId>javax.xml.bind</groupId>
-			<artifactId>jaxb-api</artifactId>
-			<version>${jaxb.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>com.sun.xml.bind</groupId>
-			<artifactId>jaxb-core</artifactId>
-			<version>${jaxb.version}</version>
-		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-cache</artifactId>
